@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Multiplication Table
+            </title>
+            </head>
+            <body>
+                <p id="multiply" onclick="generatemultiply()">click here to get the multication table</p>
+
+        <script>function generatemultiply(){
+n=prompt("enter a number")
+tables=""
+for(num=1;num<=10;num++) {
+tables+=n+"x"+num+"="+""+n*num+"<br>"
+}
+document.getElementById("multiply").innerHTML=tables
+}
+</script>
+</body>
+      </html>
